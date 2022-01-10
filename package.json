@@ -1,5 +1,6 @@
 {
   "name": "feel-chords",
+  "homepage": "https://xloc.github.io/feel-chords",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
