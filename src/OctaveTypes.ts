@@ -1,19 +1,20 @@
+import { NonFunctionKeys } from "utility-types"
+
+type KeyType = "C" | "CD" | "D" | "DE" | "E" | "F" | "FG" | "G" | "GA" | "A" | "AB" | "B";
 
 export interface KeyAttribute<T> {
     C: T;
-    CsDf: T;
+    CD: T;
     D: T;
-    DsEf: T;
+    DE: T;
     E: T;
     F: T;
-    FsGf: T;
+    FG: T;
     G: T;
-    GsAf: T;
+    GA: T;
     A: T;
-    AsBf: T;
+    AB: T;
     B: T;
-
-    [key: string]: T;
 }
 
 export interface whiteKeyAttribute<T> {
